@@ -1,0 +1,173 @@
+body{
+    background-color:white;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+}
+.subscribe{
+    background-color: rgb(206, 13, 13);
+    font-size: 17px;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    height: 40px;
+    cursor:pointer;
+}
+.subscribe:hover{
+    color: rgb(212, 153, 153);
+    transition:0.4s;
+    box-shadow: 2px 2px 10px rgb(206, 13, 13);
+}
+.join{
+    border: 2px;
+    border-color: rgb(21, 233, 233);
+    border-style: solid;
+    border-radius: 3px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    color: rgb(21, 233, 233);
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    
+
+}
+.join:hover{
+    background-color: rgb(48, 208, 236);
+    color: white;
+
+    border-color: rgb(15, 155, 219);
+}
+.join:active{
+    background-color: rgb(66, 145, 46);
+}
+.tweet{
+    border-radius: 50px;
+    background-color: rgb(31, 140, 243);
+    border-style: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    transition: box-shadow 0.3s;
+    
+}
+.tweet:hover{
+    box-shadow: 6px 6px 20px rgb(9, 97, 138);
+}
+
+.video-title{
+    font-size: 30px;
+    width: 500px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+.video-stats{
+    font-size: 20px;
+    color: rgb(92, 91, 99);
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 3px;
+    
+}
+.video-author{
+    font-size: 20px;
+    color: rgb(92, 91, 99);
+    margin-top: 30px;
+    margin-left: 0;
+    padding-left: 3px;
+}
+.video-description{
+    font-size: 20px;
+    color: rgb(92, 91, 99);
+    margin-left: 0;
+    padding-left: 3px;
+}
+
+.apple-text{
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px 50px;
+    background-color: rgb(197, 50, 24);
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.ex-5-p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+.ex-5-p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: rgb(106, 115, 124);
+    margin-top: 5px;
+}
+.ex-5-p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.ex-5-button{
+    background-color: rgba(9, 119, 33, 0.644);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.ex-6{
+    margin-top: 150px;
+}
+.ex-6-p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(245, 23, 8, 0.89);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.ex-6-p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.89);
+    text-align: center;
+    font-weight: 750;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.ex-6-p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.89);
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.ex-6-p4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(29, 28, 28, 0.521);
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+.thumbnail{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
