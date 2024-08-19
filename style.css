@@ -1,5 +1,6 @@
 body{
     background-color:white;
+    margin-left: 20px;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -60,34 +61,6 @@ p{
     box-shadow: 6px 6px 20px rgb(9, 97, 138);
 }
 
-.video-title{
-    font-size: 30px;
-    width: 500px;
-    font-weight: bold;
-    margin-bottom: 0;
-
-}
-.video-stats{
-    font-size: 20px;
-    color: rgb(92, 91, 99);
-    margin-top: 5px;
-    margin-left: 0;
-    padding-left: 3px;
-    
-}
-.video-author{
-    font-size: 20px;
-    color: rgb(92, 91, 99);
-    margin-top: 30px;
-    margin-left: 0;
-    padding-left: 3px;
-}
-.video-description{
-    font-size: 20px;
-    color: rgb(92, 91, 99);
-    margin-left: 0;
-    padding-left: 3px;
-}
 
 .apple-text{
     margin-top: 200px;
@@ -167,6 +140,126 @@ a:hover{
 
 }
 
-.thumbnail{
-    width: 400px;
+
+.video-title{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    width: 300px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0px;
+    width: 200px;
+
 }
+.video-stats{
+    font-size: 14px;
+    color: rgb(92, 91, 99);
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 3px;
+    width: 200px;
+    
+    
+}
+.video-author{
+    font-size: 14px;
+    color: rgb(92, 91, 99);
+    margin-top: 30px;
+    margin-left: 0;
+    padding-left: 3px;
+    width: 200px;
+}
+.video-description{
+    font-size: 14px;
+    color: rgb(92, 91, 99);
+    margin-left: 0;
+    padding-left: 3px;
+    width: 200px;
+}
+.video-preview-1{
+    display: inline-block;
+    width: 300px;
+}
+.video-picture-1{
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+ }
+.thumbnail-1{
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 0;
+   
+}
+
+.video-text-wpp-1{
+   display: block;
+}
+.profile-picture-1{
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+}
+.pp1{
+    width: 100%;
+    border-radius: 50%;
+}
+.video-info{
+   display: inline-block;
+   width: 200px;
+   margin-top: 0;
+}
+.search-bar{
+    width: 400px;
+    height: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 20px;
+    display: block;
+}
+.video-preview-2{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.video-title-2{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    width: 300px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 10px;
+    width: 300px;
+
+}
+.video-stats-2{
+    font-size: 14px;
+    color: rgb(92, 91, 99);
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 3px;
+    width: 300px;
+    
+    
+}
+.video-author-2{
+    font-size: 14px;
+    color: rgb(92, 91, 99);
+    margin-top: 30px;
+    margin-left: 0;
+    padding-left: 3px;
+    width: 300px;
+}
+.video-description-2{
+    font-size: 14px;
+    color: rgb(92, 91, 99);
+    margin-left: 0;
+    padding-left: 3px;
+    width: 300px;
+}
+.thumbnail-2{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+ 
