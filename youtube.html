@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/sidebar.css">
 </head>
 <body>
     <div class="header">
@@ -18,14 +19,62 @@
         </div>
         <div class="middle-section">
              <input type="text" placeholder="search" class="search-bar">
-             <button class="search-icon"><img src="images/voice-search.svg" class="search-icon-img"></button>
-             <button class="voice-search-icon"><img src="images/search-voice-2.png" class="voice-record-img"></button>
+             <button class="search-icon">
+                <img src="images/voice-search.svg" class="search-icon-img">
+                <div class="tooltip">search</div>
+            </button>
+             <button class="voice-search-icon">
+                <img src="images/search-voice-2.png" class="voice-record-img">
+                <div class="tooltip">search with your voice</div>
+            </button>
         </div>
-        <div class="right-section">right-section</div>
+        <div class="right-section">
+            <div class="upload-icon">
+                <img class="upload-img" src="images/upload.jfif">
+                <div class="tooltip">upload video</div>
+            </div>
+            <div class="apps-icon">
+                <img class="apps-img" src="images/goodle-app-icon.png">
+                <div class="tooltip">YouTube Apps</div>
+            </div>
+            <div class="notification-icon">
+                <img class="notification-img" src="images/notification.png">
+                <div class="notification">3</div>
+            </div>
+            <div class="account-icon"><img class="account-img" src="images/account.jpg"></div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="images/home.png">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/explore.png">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/subscription.png">
+            <div>Subscription</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/originals.png">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/youtube-music.png">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/liberary.png">
+            <div>Liberary</div>
+        </div>
     </div>
     <div class="video-grid">
         <div class="video-preview-1">
-            <div class="video-picture-1"><img src="\images\hq720 (1).webp"  class="thumbnail-1" > </div>
+            <div class="video-picture-1"><img src="\images\hq720 (1).webp"  class="thumbnail-1" >
+                <div class="video-time">14:20</div>
+            </div>
             <div class="video-text-wpp-1">
                 <div class="profile-picture-1"><img class="pp1" src="images\unnamed.jpg"></div>
                 <div class="video-info">
@@ -40,7 +89,9 @@
         
             </div>
             <div class="video-preview-2">
-                <div class="video-picture-2"><img src="images\hq720 (3).webp"  class="thumbnail-2" > </div>
+                <div class="video-picture-2"><img src="images\hq720 (3).webp"  class="thumbnail-2" > 
+                    <div class="video-time">14:20</div>
+                </div>
                 <div class="video-text-wpp-2">
                     <div class="profile-picture-2"><img class="pp2" src="images\etv.jpg"></div>
                     <div class="video-info-2">
@@ -56,9 +107,12 @@
                 </div>
         
                 <div class="video-preview-1">
-                    <div class="video-picture-1"><img src="\images\hq720 (1).webp"  class="thumbnail-1" > </div>
+                    <div class="video-picture-1"><img src="\images\hq720 (1).webp"  class="thumbnail-1" > 
+                        <div class="video-time">14:20</div>
+                    </div>
                     <div class="video-text-wpp-1">
-                        <div class="profile-picture-1"><img class="pp1" src="images\unnamed.jpg"></div>
+                        <div class="profile-picture-1"><img class="pp1" src="images\unnamed.jpg">
+                        </div>
                         <div class="video-info">
                             <p class="video-title">The Simple Math Problem No One Can Solve</p>
                             <p class="video-stats">1.6M views &#183; 5 years ago</p>
@@ -71,9 +125,12 @@
                 
                     </div>
                     <div class="video-preview-2">
-                        <div class="video-picture-2"><img src="images\hq720 (3).webp"  class="thumbnail-2" > </div>
+                        <div class="video-picture-2"><img src="images\hq720 (3).webp"  class="thumbnail-2" >
+                            <div class="video-time">14:20</div>
+                        </div>
                         <div class="video-text-wpp-2">
-                            <div class="profile-picture-2"><img class="pp2" src="images\etv.jpg"></div>
+                            <div class="profile-picture-2"><img class="pp2" src="images\etv.jpg">
+                            </div>
                             <div class="video-info-2">
                                 <p class="video-title-2">Talking Tech and AI with Google CEO Sundar Pichai!</p>
                                 <p class="video-stats-2">3.6M views &#183; 6 months ago</p>
@@ -87,9 +144,12 @@
                         </div>
         
                         <div class="video-preview-1">
-                            <div class="video-picture-1"><img src="\images\hq720 (1).webp"  class="thumbnail-1" > </div>
+                            <div class="video-picture-1"><img src="\images\hq720 (1).webp"  class="thumbnail-1" >
+                                <div class="video-time">14:20</div>
+                            </div>
                             <div class="video-text-wpp-1">
-                                <div class="profile-picture-1"><img class="pp1" src="images\unnamed.jpg"></div>
+                                <div class="profile-picture-1"><img class="pp1" src="images\unnamed.jpg">
+                                </div>
                                 <div class="video-info">
                                     <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
                                     <p class="video-stats">3.6M views &#183; 6 months ago</p>
@@ -102,9 +162,12 @@
                         
                             </div>
                             <div class="video-preview-2">
-                                <div class="video-picture-2"><img src="images\hq720 (3).webp"  class="thumbnail-2" > </div>
+                                <div class="video-picture-2"><img src="images\hq720 (3).webp"  class="thumbnail-2" >
+                                    <div class="video-time">14:20</div>
+                                </div>
                                 <div class="video-text-wpp-2">
-                                    <div class="profile-picture-2"><img class="pp2" src="images\etv.jpg"></div>
+                                    <div class="profile-picture-2"><img class="pp2" src="images\etv.jpg">
+                                    </div>
                                     <div class="video-info-2">
                                         <p class="video-title-2">Talking Tech and AI with Google CEO Sundar Pichai!</p>
                                         <p class="video-stats-2">3.6M views &#183; 6 months ago</p>
@@ -114,7 +177,6 @@
                                     </div>
                                     
                                 </div>
-                            
                                 </div>
     </div>
     
